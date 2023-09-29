@@ -1,13 +1,17 @@
-//console.log("esta funcionando!");
+console.log("esta funcionando!");
+    //CALCULO DE IDADE
+    function idade(){
+        let anoDeNascimento = window.prompt("Em que ano voce nasceu?");
+        console.log (anoDeNascimento);
+        let dataAtual = window.prompt("Em que ano estamos");
+        resultado = dataAtual - anoDeNascimento  ;
+        console.log ( resultado);
+alert("Quem nasceu em " + anoDeNascimento + " vai fazer " + resultado  + " anos" );
+    }
 
- //let anoDeNascimento = window.prompt("Em que ano voce nasceu?");
- //console.log (anoDeNascimento);
-// let dataAtual = window.prompt("Em que ano estamos");
-
-// resultado = dataAtual - anoDeNascimento  ;
- //console.log ( resultado);
-//alert("Quem nasceu em " + anoDeNascimento + " vai fazer " + resultado  + " anos" );
-
+    console.log("esta Funcionando ")
+//calculadora de notas
+function calculadora(){
 let nota1 = parseFloat(window.prompt("Nota Do Primeiro Trim"));
 console.log (nota1);
 let nota2 = parseFloat(window.prompt("Segundo Trim"));
@@ -29,5 +33,5 @@ alert(" Resultado final "+ resultado + " passou ")
 else{
 
 alert(" Nota Necessaria 180, " + resultado + " Reprovou mais sorte na proxima ")
-
+}
 }
